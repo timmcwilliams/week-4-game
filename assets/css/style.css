@@ -1,4 +1,21 @@
-h1{
-	border:solid,black 10px;
+/* Styles go here */
+
+.container {
+	border:solid black 10px;
 	color:red;
+}
+
+.crystal-box {
+    width: 100px;
+    border: 25px solid white;    ;
+    padding: 20px;
+    margin: 25px;
+    background-color: black;
+    color: white;
+    margin: 10px  20px 0px;
+    padding: 20px;
+    float:left;
+}
+h2 {
+  color: red;
 }

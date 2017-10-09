@@ -1,20 +1,54 @@
 <!DOCTYPE html>
 <html>
-<Title>CrystalsCollector</Title>
-  <head>
-    <link data-require="bootstrap-css@*" data-semver="4.0.0-alpha.4" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" />
-    <script data-require="jquery@*" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <script type="text/javascript" src="assets/javascript/game.js"></script>
-    <style type="text/css" src="assets/css/style.css"></style>
-  </head>
 
-  <body>
-    <h1>Hello Plunker!</h1>
+<head>
+	<title>CrystalsCollector</title>
+	<link data-require="bootstrap@*" data-semver="4.0.5" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" />
+	<script data-require="bootstrap@*" data-semver="4.0.5" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js"></script>
+	<link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+	<style type="text/css" src="assets/css/style.css"></style>
+</head>
+<body>
+<div class="panel">
+  <div class="container crystal-box col-sm-4">
+    <h2><span>3</span></h2>
+  </div>
+  <div class="container crystal-box col-sm-4" value="7">
+    <h2><span>4</span></h2>
+  </div>
+  <div class="container crystal-box col-sm-4">
+    <h2><span>5</span></h2>
+  </div>
+  <div class="container crystal-box col-sm-4">
+    <h2><span>10</span></h2>
+  </div>
+  <div class="wins col-sm-4">
+    <h1><span>Random #</span></h1>
+  </div>
+  <div class="wins col-sm-4">
+    <h1><span>Wins</span></h1>
+  </div>
+  <div class="wins col-sm-4">
+    <h1><span>Losses</span></h1>
+  </div>
+  </div>
+
+  
+
+<!--     data-points then ""
+    spans
+    parse the interger
+    this for the inner html using jquerry
+    span puts smaller value in boxes
+    div box defined in upper css
+    used bootstrap for col md - 3
+    match was part of funtion
+    script at the bottom - last thing
+    $"#random".html(match) --> -->
+   
+  
   </body>
-
 </html>
-
 <!-- ### Option One: CrystalsCollector Game (Recommended)
 
 ![Crystal Collector](Images/1-CrystalCollector.jpg)
