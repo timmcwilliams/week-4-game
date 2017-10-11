@@ -3,37 +3,53 @@
 
 <head>
 	<title>CrystalsCollector</title>
-	<link data-require="bootstrap@*" data-semver="4.0.5" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" />
-	<script data-require="bootstrap@*" data-semver="4.0.5" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js"></script>
-	<link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+	<!-- <script type="text/javascript" src='https://code.jquery.com./jquery-3.1.1.min.js'></script> -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- <script data-require="bootstrap@*" data-semver="4.0.5" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js"></script> -->
+
+	<link type="text/css" rel="stylesheet" href="assets/css/style.css" rel="stylesheet">
+
 	<style type="text/css" src="assets/css/style.css"></style>
+
 </head>
 <body>
-<div class="panel">
-  <div class="container crystal-box col-sm-4">
-    <h2><span>3</span></h2>
-  </div>
-  <div class="container crystal-box col-sm-4" value="7">
-    <h2><span>4</span></h2>
-  </div>
-  <div class="container crystal-box col-sm-4">
-    <h2><span>5</span></h2>
-  </div>
-  <div class="container crystal-box col-sm-4">
-    <h2><span>10</span></h2>
-  </div>
-  <div class="wins col-sm-4">
-    <h1><span>Random #</span></h1>
-  </div>
-  <div class="wins col-sm-4">
-    <h1><span>Wins</span></h1>
-  </div>
-  <div class="wins col-sm-4">
-    <h1><span>Losses</span></h1>
-  </div>
-  </div>
+	<div class="row">
+		<div class="panel col-sm-7">
 
-  
+			<div class="container crystal-box col-sm-4 " data-value="7">
+				<h2><span>4</span></h2>
+			</div>
+			<div class="container crystal-box col-sm-4" data-value="7">
+				<h2><span>4</span></h2>
+			</div>
+			<div class="container crystal-box col-sm-4" data-value="7">
+				<h2><span>5</span></h2>
+			</div>
+			<div class="container crystal-box col-sm-4" data-value="7">
+				<h2><span>10</span></h2>
+			</div>
+		</div>
+			
+		<div class="panel col-sm-5">	
+				<div><button><span id="click-me">button</span></button>
+				</div>
+				<div class="wins col-sm-4" data-value="1" >
+				</div>
+				<div class="wins col-sm-4" data-value="2">
+				<h1><span>Wins</span></h1></div>
+
+				<div class="wins col-sm-4" data-value="3">
+				<h1><span>Losses</span></h1>
+				</div>
+		</div>
+	</div>
+
+
+	<!-- enter jquery starter link-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- <script type="text/javascript" src='https://code.jquery.com./jquery-3.1.1.min.js'></script> -->
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+
 
 <!--     data-points then ""
     spans
@@ -45,9 +61,9 @@
     match was part of funtion
     script at the bottom - last thing
     $"#random".html(match) --> -->
-   
-  
-  </body>
+
+
+</body>
 </html>
 <!-- ### Option One: CrystalsCollector Game (Recommended)
 
