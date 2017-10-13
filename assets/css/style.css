@@ -1,21 +1,26 @@
-/* Styles go here */
 
-.container {
-	border:solid black 10px;
-	color:red;
+.flex {
+display: flex;
+flex-wrap: wrap;
 }
+@media (min-width: 768px) {
+.col-sm-5cols {
+        width: 20%;
+        float: left;
+    }
+.thumbnail img{
+   height:250px;
+   width:100%;
+   padding-right: 5px;
+    padding-left: 5px;
+  
+}
+.border-box{
+	border-width: auto;
+	color:black
 
-.crystal-box {
-    width: 100px;
-    border: 25px solid white;    ;
-    padding: 20px;
-    margin: 25px;
-    background-color: black;
-    color: white;
-    margin: 10px  20px 0px;
-    padding: 20px;
-    float:left;
 }
-h2 {
-  color: red;
+body{
+	font-family: 'Open Sans', sans-serif;
+	border-box:black;
 }

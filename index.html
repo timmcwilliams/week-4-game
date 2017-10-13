@@ -1,66 +1,59 @@
 <!DOCTYPE html>
 <html>
-
 <head>
 	<title>CrystalsCollector</title>
-	<!-- <script type="text/javascript" src='https://code.jquery.com./jquery-3.1.1.min.js'></script> -->
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<!-- <script data-require="bootstrap@*" data-semver="4.0.5" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js"></script> -->
+	<!-- add reset -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
 	<link type="text/css" rel="stylesheet" href="assets/css/style.css" rel="stylesheet">
-
-	<style type="text/css" src="assets/css/style.css"></style>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
 </head>
 <body>
+<div class="container">
+		<div class="jumbotron">
+			<h1>The Crystal Game</h1>
+			<p>This is a game you will love and enjoy.</p>
+			<p><a class="btn btn-primary btn-lg" href="#" title="Learn More">Start</a></p>
+		</div>
+
 	<div class="row">
-		<div class="panel col-sm-7">
-
-			<div class="container crystal-box col-sm-4 " data-value="7">
-				<h2><span>4</span></h2>
-			</div>
-			<div class="container crystal-box col-sm-4" data-value="7">
-				<h2><span>4</span></h2>
-			</div>
-			<div class="container crystal-box col-sm-4" data-value="7">
-				<h2><span>5</span></h2>
-			</div>
-			<div class="container crystal-box col-sm-4" data-value="7">
-				<h2><span>10</span></h2>
-			</div>
-		</div>
-			
-		<div class="panel col-sm-5">	
-				<div><button><span id="click-me">button</span></button>
-				</div>
-				<div class="wins col-sm-4" data-value="1" >
-				</div>
-				<div class="wins col-sm-4" data-value="2">
-				<h1><span>Wins</span></h1></div>
-
-				<div class="wins col-sm-4" data-value="3">
-				<h1><span>Losses</span></h1>
-				</div>
-		</div>
+		<div class="col-lg-3">
+			<div class="thumbnail flex crystal-box" id="box-1"><img src="http://l7.alamy.com/zooms/c4635357d2cc44ed9e4d263ff23b0315/abstract-background-with-crystal-lattice-e90ydx.jpg" alt="coding 1"></div>
+		</div>	
+		<div class="col-lg-3">
+			<div class="thumbnail flex crystal-box" id="box-2"><img src="http://media.istockphoto.com/photos/crystal-lattice-picture-id517716029" alt="coding 2"></div>
+		</div>	
+		<div class="col-lg-3">
+			<div class="thumbnail flex crystal-box" id="box-3"><img src="http://media.istockphoto.com/photos/crystal-lattice-picture-id517716027" alt="coding three"></div>
+		</div>	
+		<div class="col-lg-3">
+			<div class="thumbnail flex crystal-box" id="box-4"><img  src="http://media.istockphoto.com/photos/crystal-structure-picture-id625231422?k=6&amp;m=625231422&amp;s=612x612&amp;w=0&amp;h=XsJ7Vh__DeNg4YuTr2cJ87Y6HdTe0y6q2-XoUn-Jfe8=" alt="coding 4"></div>
+		</div>			
 	</div>
+			
+	<div class="panel col-sm-5">
+		<div class="border-box">
+		<h2>Results</h2>
+			<ul>
+				<li id="total">TOTAL Points</li>
+				<li id="wins">Games Won</li>
+				<li id="loses">Losess</li>
+				<li id="random">Random #</li>
 
+			</ul>  
+		</div>
+
+	</div>
+</div>
 
 	<!-- enter jquery starter link-->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<!-- <script type="text/javascript" src='https://code.jquery.com./jquery-3.1.1.min.js'></script> -->
+
 	<script type="text/javascript" src="assets/javascript/game.js"></script>
 
 
-<!--     data-points then ""
-    spans
-    parse the interger
-    this for the inner html using jquerry
-    span puts smaller value in boxes
-    div box defined in upper css
-    used bootstrap for col md - 3
-    match was part of funtion
-    script at the bottom - last thing
-    $"#random".html(match) --> -->
+
 
 
 </body>
