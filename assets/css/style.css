@@ -24,3 +24,7 @@ body{
 	font-family: 'Open Sans', sans-serif;
 	border-box:black;
 }
+.jumbotron{
+  height:200px;
+  padding-top: 20px;
+}
